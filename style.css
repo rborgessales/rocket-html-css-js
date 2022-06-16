@@ -1,0 +1,57 @@
+body {
+    background-color: #1a1818;
+    font-family: 'Bebas Neue', cursive;
+}
+h1 {
+    color: #ffff;
+}
+span {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    margin-top: 10px;
+}
+.card {
+    background-color: #414141;
+    padding: 2px 20px;
+    margin: 0px 5px;
+    border-radius: 10px;
+}
+.card:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,9,121,1) 50%, rgba(68,0,255,1) 100%); 
+    cursor: pointer;
+}
+
+.rocket-title {
+    color: #ffff;
+    font-size: 30px;
+    
+}
+.rocket-description {
+    color: #ffff;
+}
+.box-img {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.rocket-1-img {
+    width: 80px;
+    margin: 0 auto;
+}
+
+.rocket-2-img {
+    width: 80px;
+    margin: 0 auto;
+}
+
+.rocket-3-img {
+    width: 400px;
+    margin: 0 auto; /* Centraliza uma imagem dentro de uma div. */
+}
+
